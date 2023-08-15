@@ -32,25 +32,67 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ck0r2pL.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Use Microsoft Azure to create two virtual machines. When creating the Ubuntu virtual machine set it to use a password as shown in the above screenshot.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VePiSNS.png"/>
+</p>
+There should be two virtual machines created as shown in the above screenshot. Conncect to the virtual machine running windows.
+<p>
+<br />
+  
+<p>
+<img src="https://i.imgur.com/VePiSNS.png"/>
+</p>
+There should be two virtual machines created as shown in the above screenshot. Conncect to the virtual machine running windows.
+<p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/poZlZkX.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to https://www.wireshark.org/download.html and install wireshark onto the windows virtual machine that was made in Azure.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AwMDD9g.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once wireshark is installed click on ethernet to begin capturing the local traffic.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/HwvIED8.png"/>
+</p>
+<p>
+Type in icmp into the bar of wireshark to isolate traffic from the internet control message protocol (ICMP).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/HwvIED8.png"/>
+</p>
+<p>
+Use the Azure portal to note the private IP of the Ubuntu virtual machine.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/HwvIED8.png"/>
+</p>
+<p>
+Use command line to ping the Ubuntu virtual machine and note the traffic that appears in wireshark.
+</p>
+<br />
+
+
+
+
