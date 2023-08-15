@@ -125,5 +125,23 @@ Type ipconfig/renew into windows command line to generate DHCP traffic that can 
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/mkuVSpw.png"/>
+</p>
+<p>
+Type dns into wireshark to isolate Domain Naming System (DNS) traffic in wireshark.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/HSdcnNZ.png"/>
+</p>
+<p>
+Type nslookup www.google.com to generate DNS traffic that can be observed.
+</p>
+<br />
+
+
+
 
 
