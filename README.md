@@ -101,5 +101,21 @@ Type in Secure Shell (SSH) to isolate SSH traffic in wireshark.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/tPnpltK.png"/>
+</p>
+<p>
+Open windows powershell and type SSH @labuser 10.0.0.5 to initiate the login process. This command uses the username and private IP address of your Ubuntu virtual machine. After you type in that command you will type in the word yes and then the password to your ubuntu virtual machine. This will generate SSH traffic that you can observe.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/aMwAFKd.png"/>
+</p>
+<p>
+
+</p>
+<br />
+
 
 
