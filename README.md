@@ -110,10 +110,18 @@ Open windows powershell and type SSH @labuser 10.0.0.5 to initiate the login pro
 <br />
 
 <p>
-<img src="https://i.imgur.com/aMwAFKd.png"/>
+<img src="https://i.imgur.com/rPh7KM2.png"/>
 </p>
 <p>
+Type dhcp into wireshark to isolate Dynamic Host Configuration Protocol (DHCP) traffic in wireshark.
+</p>
+<br />
 
+<p>
+<img src="https://i.imgur.com/qGWavny.png"/>
+</p>
+<p>
+Type ipconfig/renew into windows command line to generate DHCP traffic that can be observed in wireshark.
 </p>
 <br />
 
