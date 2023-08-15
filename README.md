@@ -94,6 +94,30 @@ Use command line to ping the Ubuntu virtual machine and note the traffic that ap
 <br />
 
 <p>
+<img src="https://i.imgur.com/JlUh17s.png"/>
+</p>
+<p>
+Use ping -t to contiounously ping the ubuntu virtual machine.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2j1NCUz.png"/>
+</p>
+<p>
+Use the Azure portal to block ICMP traffic in the network security group page create an inbound security rule to block ICMP traffic.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/VwDMDc5.png"/>
+</p>
+<p>
+Observe how the traffic changes when the security rule is implemented then disable the rule and observe how the traffic resumes as it did before.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/aMwAFKd.png"/>
 </p>
 <p>
@@ -141,6 +165,13 @@ Type nslookup www.google.com to generate DNS traffic that can be observed.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/3ZBxQ7H.png"/>
+</p>
+<p>
+Type tcp.port==3389 into wireshark to observe Remote Desktop Protocol (RDP) traffic. Traffic is being generated because you are using RDP to connect to the virtual machine. This concludes 
+</p>
+<br />
 
 
 
