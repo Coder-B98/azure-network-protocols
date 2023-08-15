@@ -78,7 +78,7 @@ Type in icmp into the bar of wireshark to isolate traffic from the internet cont
 <br />
 
 <p>
-<img src="https://i.imgur.com/HwvIED8.png"/>
+<img src="https://i.imgur.com/CMYlcUO.png"/>
 </p>
 <p>
 Use the Azure portal to note the private IP of the Ubuntu virtual machine.
@@ -86,13 +86,20 @@ Use the Azure portal to note the private IP of the Ubuntu virtual machine.
 <br />
 
 <p>
-<img src="https://i.imgur.com/HwvIED8.png"/>
+<img src="https://i.imgur.com/WVf7cK2.png"/>
 </p>
 <p>
 Use command line to ping the Ubuntu virtual machine and note the traffic that appears in wireshark.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/aMwAFKd.png"/>
+</p>
+<p>
+Type in Secure Shell (SSH) to isolate SSH traffic in wireshark.
+</p>
+<br />
 
 
 
